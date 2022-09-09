@@ -10,7 +10,7 @@ module.exports = {
   networks: {
     goerli: {
       url: process.env.QUICKNODE_API_KEY_URL,
-      accounts: [process.env.RINKEBY_PRIVATE_KEY],
+      accounts: [process.env.GOERLI_PRIVATE_KEY],
     },
   },
   etherscan: {
